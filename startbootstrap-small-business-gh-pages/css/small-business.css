@@ -14,4 +14,22 @@ body {
   }
 }
 
+/* The birds position as well as the animation name and duration if one was to occur*/
+#bird{
+ height: 200px;
+ animation-name: bird;
+ animation-duration: 10s;
+ position: relative;
+ top: -450px;
+ left:800px;
+}
 
+/*animation statusus at different points of the animation process*/
+@keyframes bird {
+    0%   { left:800px; top:-450px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:500px; top:-200px;}
+    75%  { left:0px; top:-450px;}
+    100% { left:800px; top:-450px;}
+}
+ 
