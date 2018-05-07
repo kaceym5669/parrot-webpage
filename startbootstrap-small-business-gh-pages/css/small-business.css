@@ -26,10 +26,17 @@ body {
 
 /*animation statusus at different points of the animation process*/
 @keyframes bird {
-    0%   { left:800px; top:-450px;}
-    25%  { left:200px; top:0px;}
+    0%   { left:1000px; top:30px;}
+    25%  { left:100px; top:80px;}
+    50%  { left:800px; top:700px;}
+    75%  { left:150px; top:00px;}
+    100% { left:1000px; top:1000px;}
+    
+ /* 
+    
+    
+     0%   { left:1000px; top:1000px;}
+    25%  { left:000px; top:600px;}
     50%  { left:500px; top:-200px;}
     75%  { left:0px; top:-450px;}
-    100% { left:800px; top:-450px;}
-}
- 
+    100% { left:800px; top:-450px;}///*/
