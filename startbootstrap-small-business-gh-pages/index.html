@@ -11,10 +11,13 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script>
-        $(function() {
-
-
-        });
+      $(document).ready(function(){
+    $("h1").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "lightgreen");
+    });
+});
     </script>
   <title>Small Business - Start Bootstrap Template</title>
 
@@ -214,17 +217,7 @@
         </div>
       </div>
       <!-- /.col-md-4 -->
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h2 class="card-title">Card Two</h2>
-            <p class="card-text">Video Here </p>
-          </div>
-          <div class="card-footer">
-
-          </div>
-        </div>
-      </div>
+      
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100">
