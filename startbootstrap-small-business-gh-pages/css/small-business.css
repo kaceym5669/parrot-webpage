@@ -36,3 +36,10 @@ body {
 img{
 padding-bottom: 10px;
 }
+.contact{
+    text-align: center;
+}
+    
+#contact-header {
+    color:white;
+}
