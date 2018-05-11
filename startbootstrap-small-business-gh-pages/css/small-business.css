@@ -19,7 +19,7 @@ body {
  height: 200px;
  animation-name: bird;
  animation-duration: 10s;
- position: relative;
+ position: absolute;
  top: -450px;
  left:800px;
 }
